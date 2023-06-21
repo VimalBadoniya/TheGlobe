@@ -1,0 +1,49 @@
+.containerDiv{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows:  50rem auto;
+    justify-content: space-between;
+    margin: 16px;
+    padding-top: 16px;
+}
+
+.leftDiv{
+    margin-left: 4rem;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+.rightDiv1{
+    
+    margin-right: 4rem;
+    margin-left: 0;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.rightDiv2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-left: 0;
+    border: 2px solid yellow;
+}
+
+.dp{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 12px;
+}
